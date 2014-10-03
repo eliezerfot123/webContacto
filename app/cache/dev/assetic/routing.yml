@@ -1,0 +1,5 @@
+_assetic:
+    resource: .
+    type: assetic
+_app:
+    resource: /home/eliezer/public_html/webContacto/app/config/routing_dev.yml
