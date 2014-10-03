@@ -1,0 +1,29 @@
+Agenda\ContactoBundle\Entity\Contacto:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nombres:
+            type: string
+            length: '100'
+        apellidos:
+            type: string
+            length: '100'
+        direccion:
+            type: string
+            length: 255
+        casa:
+            type: string
+            length: '30'
+        celular:
+            type: string
+            length: '30'
+        email:
+            type: string
+            length: '100'
+    lifecycleCallbacks: {  }

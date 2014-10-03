@@ -1,0 +1,30 @@
+contacto:
+    path:     /
+    defaults: { _controller: "ContactoBundle:Contacto:index" }
+
+contacto_show:
+    path:     /{id}/show
+    defaults: { _controller: "ContactoBundle:Contacto:show" }
+
+contacto_new:
+    path:     /new
+    defaults: { _controller: "ContactoBundle:Contacto:new" }
+
+contacto_create:
+    path:     /create
+    defaults: { _controller: "ContactoBundle:Contacto:create" }
+    requirements: { _method: post }
+
+contacto_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "ContactoBundle:Contacto:edit" }
+
+contacto_update:
+    path:     /{id}/update
+    defaults: { _controller: "ContactoBundle:Contacto:update" }
+    requirements: { _method: post|put }
+
+contacto_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "ContactoBundle:Contacto:delete" }
+    requirements: { _method: post|delete }

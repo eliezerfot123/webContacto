@@ -1,0 +1,9 @@
+ContactoBundle_contacto:
+    resource: "@ContactoBundle/Resources/config/routing/contacto.yml"
+    prefix:   /contacto
+
+#contacto:
+#    resource: "@ContactoBundle/Resources/config/routing.yml"
+#    prefix:   /
+ 
+

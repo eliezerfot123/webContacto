@@ -1,0 +1,7 @@
+parameters:
+#    contacto.example.class: Agenda\ContactoBundle\Example
+
+services:
+#    contacto.example:
+#        class: %contacto.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
